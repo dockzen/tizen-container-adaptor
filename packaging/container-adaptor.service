@@ -1,0 +1,12 @@
+[Unit]
+Description=Containerization for Tizen Container
+Requires=connman.service
+
+
+[Service]
+SmackProcessLabel=System
+Type=simple
+ExecStart=/usr/bin/sh -c "exec /etc/container_network.sh"
+
+[Install]
+WantedBy=multi-user.target
