@@ -2,7 +2,7 @@
 
 Name:		container-adaptor
 Summary:	containerization for Tizen platform
-Version:	0.0.1
+Version:	1.0.0
 Release:	0
 Group:		System/Configuration
 License:	Apache-2.0
